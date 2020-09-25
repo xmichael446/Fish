@@ -1,0 +1,13 @@
+/home/muhammadrasul/RiderProjects/Fish/Fish/bin/Debug/netcoreapp3.1/Fish
+/home/muhammadrasul/RiderProjects/Fish/Fish/bin/Debug/netcoreapp3.1/Fish.deps.json
+/home/muhammadrasul/RiderProjects/Fish/Fish/bin/Debug/netcoreapp3.1/Fish.runtimeconfig.json
+/home/muhammadrasul/RiderProjects/Fish/Fish/bin/Debug/netcoreapp3.1/Fish.runtimeconfig.dev.json
+/home/muhammadrasul/RiderProjects/Fish/Fish/bin/Debug/netcoreapp3.1/Fish.dll
+/home/muhammadrasul/RiderProjects/Fish/Fish/bin/Debug/netcoreapp3.1/Fish.pdb
+/home/muhammadrasul/RiderProjects/Fish/Fish/obj/Debug/netcoreapp3.1/Fish.csprojAssemblyReference.cache
+/home/muhammadrasul/RiderProjects/Fish/Fish/obj/Debug/netcoreapp3.1/Fish.AssemblyInfoInputs.cache
+/home/muhammadrasul/RiderProjects/Fish/Fish/obj/Debug/netcoreapp3.1/Fish.AssemblyInfo.cs
+/home/muhammadrasul/RiderProjects/Fish/Fish/obj/Debug/netcoreapp3.1/Fish.csproj.CoreCompileInputs.cache
+/home/muhammadrasul/RiderProjects/Fish/Fish/obj/Debug/netcoreapp3.1/Fish.dll
+/home/muhammadrasul/RiderProjects/Fish/Fish/obj/Debug/netcoreapp3.1/Fish.pdb
+/home/muhammadrasul/RiderProjects/Fish/Fish/obj/Debug/netcoreapp3.1/Fish.genruntimeconfig.cache
