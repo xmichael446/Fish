@@ -38,18 +38,6 @@ namespace Fish
 
         public bool IsMale()
         {
-            /*
-            if (Gender)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-            Шучу, не бейте.
-            */
-
             return Gender;
         }
 		
