@@ -1,3 +1,5 @@
 .vs
 Fish/bin
 Fish/obj
+.vscode
+.idea

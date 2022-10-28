@@ -13,10 +13,10 @@ namespace Fish
             int lastId = 71;
             int iteration = 0;
 
-            Logger logger = new Logger();
+            Logger logger = Logger.GetInstance();
             List<int> collisions = new List<int>();
 
-            while (true)
+            while (aquarium.Fish.Count >= 2)
             {
                 List<Fish> fish = aquarium.Fish;
 
@@ -36,16 +36,16 @@ namespace Fish
                     }
 
                     if (collisions[i] != iteration) continue;
-                    
+
                     collisions.RemoveAt(i);
-						
+
                     Fish fish1 = fish[rand.Next(1, fish.Count)];
                     Fish fish2 = fish[rand.Next(1, fish.Count)];
 
                     logger.LogCollision(fish1, fish2);
 
-                    if (!fish1.CanGetMarriedWith(fish2)) continue;
-                    
+                    if (!fish1.CanMarry(fish2)) continue;
+
                     int lifetime = rand.Next(1, 100);
                     bool gender = Convert.ToBoolean(rand.Next(0, 2));
                     Fish mother = (fish1.IsFemale()) ? fish1 : fish2;
@@ -53,7 +53,7 @@ namespace Fish
 
                     Fish newFish = new Fish(lastId, "Hoshim", lifetime, gender, mother, father);
                     lastId++;
-							
+
                     logger.LogBirth(newFish);
                 }
 
@@ -69,6 +69,8 @@ namespace Fish
 
                 iteration++;
             }
+
+            logger.LogDoomsDay();
         }
     }
 }

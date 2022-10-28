@@ -2,7 +2,6 @@ namespace Fish
 {
     public class Fish
     {
-        // Fields
         public int Id { get; set; }
 
         public int Lifetime { get; set; }
@@ -16,7 +15,6 @@ namespace Fish
         public Fish Father { get; set; }
 
 
-        // Initializer
         public Fish(int id, string name, int lifetime, bool gender, Fish mother = null, Fish father = null)
         {
             Id = id;
@@ -30,8 +28,7 @@ namespace Fish
         }
 
 
-        // Methods
-        public bool CanGetMarriedWith(Fish fish)
+        public bool CanMarry(Fish fish)
         {
             return fish.Gender != Gender;
         }
